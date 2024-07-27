@@ -1,0 +1,13 @@
+@media only screen and  (max-width: 575.98px) { 
+    .hero {
+        overflow: auto;
+    }
+    .client-image {
+        display: flex;
+    }
+
+    .testi-text h2 {
+        text-align: center;
+        font-size: 45px;
+    }
+ }

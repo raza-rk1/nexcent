@@ -1,0 +1,257 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+.main-btn {
+    padding: 14px 32px;
+    border-radius: 4px;
+    background: #4CAF4F;
+}
+header {
+    background-color:#F5F7FA;
+}
+.container {
+    max-width: 1200px;
+}
+.navbar-nav li {
+    margin-right: 30px;
+}
+.navbar-nav li a {
+    color: #18191F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header-form button {
+    box-shadow: -2px 4px 5px 3px rgba(0,0,0,0.15);
+    -webkit-box-shadow: -2px 4px 5px 3px rgba(0,0,0,0.15);
+    -moz-box-shadow: -2px 4px 5px 3px rgba(0,0,0,0.15);
+    margin-right: 10px;
+    }
+
+.header-form button:focus {
+    box-shadow: none !important;
+}
+.sign-up {
+    background-color: #4CAF4F;
+    color: #fff;
+}
+.hero {
+   max-height: 599px;
+    padding: 96px 0;
+}
+.banner-text h1 {
+    font-size: 64px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.banner-text span {
+    color: #4CAF4F;
+}
+.banner-text p {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.banner-btn {
+    background-color: #4CAF4F;
+    color: #fff;
+    border-radius: 0;
+    padding: 14px 32px;
+}
+.banner-image {
+    width: 100%;
+}
+/* Slick slider CSS */
+.slick-dots {
+    padding: 0;
+    display: flex !important;
+    justify-content: center;
+}
+
+.slick-dots button {
+    display: none;
+}
+
+.slick-dots li {
+    width: 10px;
+    height: 10px;
+    background-color: #C2E1C7;
+    margin: 97px 10px 0 0;
+    border-radius: 50%;
+}
+.slick-dots li.slick-active {
+    background-color: #4CAF4F;
+}
+section {
+    margin-top: 40px;
+}
+
+.client-img {
+    margin-top: 16px;
+}
+.client-img img {
+    width: 48px;
+    height: 48px;
+}
+
+.community {
+    margin-top: 40px;
+}
+
+.bottom-card img {
+    width: 48px;
+    height: 48px;
+}
+.bottom-card h3 {
+    font-size: 2.1rem;
+}
+/* Pixelgrade CSS */
+.pixel-text p {
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+/* Helping  CSS */
+#helping span {
+    color: #4CAF4F;
+}
+.icon img {
+    width: 80%;
+}
+.icon-detail h3 {
+    font-size: 28px;
+}
+.icon-detail p {
+    font-size: 16px;
+    color: #717171;
+}
+.design-text p {
+    font-size: 13px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.design-bottom {
+    background-color: #F5F7FA;
+}
+.design-bottom h4 {
+    font-size: 20px;
+    color: #4CAF4F;
+}
+.design-bottom p {
+    font-size: 18px;
+}
+
+.design-bottom-img a {
+    color: #4CAF4F;
+}
+#marketing .text {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 2;
+    margin-top: -95px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+#marketing .image img {
+    width: 100%;
+}
+
+#marketing .text p {
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 16px;
+    color: #717171;
+}
+#marketing .text a {
+    font-size: 20px;
+    color: #4CAF4F;
+}
+#testimonial {
+    padding: 32px 0;
+}
+.testi-text h2 {
+    font-size: 64px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+}
+.testi-btn {
+    margin-top: 32px;
+}
+
+/* Footer CSS */
+#footer {
+    background-color: #060606;
+    padding: 64px 0;
+}
+.item-1 {
+    margin: 40px 0;
+    color: #fff;
+}
+.social-link {
+    display: flex;
+}
+.social-link .icon {
+    width: 15px;
+    height: 15px;
+    background-color: #383838;
+    border-radius: 50%;
+    color: #fff;
+    padding: 5px;
+    margin-right: 16px;
+}
+.form-item .form{
+    position: relative;
+    
+}
+#footer h4 {
+    color: #fff; 
+}
+#footer ul {
+    padding: 0;
+}
+#footer li {
+    margin: 12px 0;
+    color: #fff;
+}
+.input input {
+    display: block;
+    width: 100%;
+    background-color: #383838;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+footer .form .telegram {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: 3%;
+    transform: translate(0, -50%);
+    color: #fff;
+}
